@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block title %}this is title{% endblock title %}
+{% block body %}
+
+<html>
+    <body style="background-color:powderblue;">
+<div class="container mt-5">
+    <h1 class="text-warning mb-5 border-bottom">CONTACT US  📞:- +91 789512345 <br> Email us 📧:-smithsingh232@gmail.com</h1>
+    <div class="row text black mb-5">
+        <p class="mx-auto mb-5">
+           Have any queries please ask me.
+        </p>
+        <div class="col-sm-9 mb-5">
+            <form action="">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputname"> your name</label>
+                        <input type="text" class="form-control" id="inputname">   
+                    </div>
+                    <div class="form-group col-md=6">
+                        <label for="inputEmail">your email</label>
+                        <input type="email" class="form-control"
+                        id="imputEmaail" required/>                      
+                    </div>
+                    <div>
+                        <div class="form-group mb-3" >
+                            <label for="inputSubject">your subject</label>
+                            <input type="text" class="form-controm"
+                            id="inputSubject"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputTextarea">your message</label>
+                            <textarea class="form-control" id="inputTextarea" required></textarea>
+                        </div>
+                        <button class="btn btn-primary " type="submit">send</button>
+            </form>
+        </div>
+        
+
+</body>
+</html>
+
+    
+
+
+
+{% endblock body %}

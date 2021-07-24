@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% block title %}this is services{% endblock title %}
+
+{% block body %}
+
+<html>
+    <body style="background-color: seagreen;">
+<div class=" co mt-3">
+    <h1 class='text-warning mb-8 border-bottom'>SKILLS :-</h1>
+</div>
+{% load static %}
+
+<center><img  src="{% static 'web.png' %}" class="left"  height="150" width="150"  style="border-radius: 50%; " ><p><h2> web development</h2> </p></center>
+<p>Mysql</p>
+
+<div class="container">
+  <div class="skills php">60%</div>
+</div>
+<br>
+<center><img  src="{% static 'python.jpg' %}" class="left"  height="150" width="150"  style="border-radius: 50%; " ><p><h2>Python</h2> </p></center>
+
+<p>PYTHON :-</p>
+
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+<br>
+<center><img  src="{% static 'django.png' %}" class="left"  height="150" width="150"  style="border-radius: 50%; " ><p><h3>Django</h3> </p></center>
+<p>DJANGO :-</p>
+
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+<br>
+<center><img  src="{% static 'mysql.png' %}" class="left"  height="150" width="150"  style="border-radius: 50%; " ><p><h3>Mysql</h3> </p></center>
+
+<p>MYSQL :-</p>
+
+<div class="container">
+  <div class="skills php">60%</div>
+</div>
+<br>
+<center><img  src="{% static 'sql.png' %}" class="left"  height="150" width="250"  style="border-radius: 50%; " ><p><h3> Sql</h3> </p></center>
+<p>SQL :-</p>
+
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+</body>
+</html>
+
+
+<style>
+
+.container {
+  width: 95%;
+  border: slategray;
+  background-color: white;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: green;
+}
+
+.css {
+  width: 80%;
+  background-color: navy;
+}
+
+.js {
+  width: 65%;
+  background-color: blue;
+}
+
+.php {
+  width: 60%;
+  background-color: blueviolet;
+}
+</style>
+<script>
+
+    alert('This is not a real resume')
+</script>
+
+
+
+
+
+{% endblock body %}
